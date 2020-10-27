@@ -1,0 +1,70 @@
+Microsoft Windows [Version 10.0.19041.572]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\admin>ibmcloud login
+API 엔드포인트: https://cloud.ibm.com
+지역: us-south
+
+Email> hanjy200840@gmail.com
+
+Password>
+인증 중...
+확인
+
+대상 지정된 계정 정윤 한's Account (acfbae6570004369b2ec9966312f6b88)
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                us-south
+사용자:              hanjy200840@gmail.com
+계정:                정윤 한's Account (acfbae6570004369b2ec9966312f6b88)
+리소스 그룹:         대상으로 지정된 리소스 그룹이 없습니다.'ibmcloud target -g RESOURCE_GROUP' 명령을 사용하십시오.
+CF API 엔드포인트:
+조직:
+영역:
+
+새 버전 1.2.3을(를) 사용할 수 있습니다.
+릴리스 정보: https://github.com/IBM-Cloud/ibm-cloud-cli-release/releases/tag/v1.2.3
+팁: 업데이트 확인을 사용 안함으로 설정하려면 'ibmcloud config --check-version=false' 명령을 사용하십시오.
+
+업데이트하시겠습니까? [y/N] > N
+
+C:\Users\admin>ibmcloud resource groups
+hanjy200840@gmail.com(으)로 acfbae6570004369b2ec9966312f6b88 계정에서 모든 리소스 그룹 검색 중...
+확인
+이름        ID                                 기본 그룹   상태
+MyfirstRG   d6d53c40f7784bfa8c9598fd2e683006   true        ACTIVE
+
+C:\Users\admin>ibmcloud target -g MyfirstRG
+대상 지정된 리소스 그룹 MyfirstRG
+
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                us-south
+사용자:              hanjy200840@gmail.com
+계정:                정윤 한's Account (acfbae6570004369b2ec9966312f6b88)
+리소스 그룹:         MyfirstRG
+CF API 엔드포인트:
+조직:
+영역:
+
+C:\Users\admin>ibmcloud target -o hanjy200840@gmail.com -s test
+대상 지정된 Cloud Foundry(https://api.us-south.cf.cloud.ibm.com)
+
+대상 지정된 조직 hanjy200840@gmail.com
+
+대상 지정된 영역 Test
+
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                us-south
+사용자:              hanjy200840@gmail.com
+계정:                정윤 한's Account (acfbae6570004369b2ec9966312f6b88)
+리소스 그룹:         MyfirstRG
+CF API 엔드포인트:   https://api.us-south.cf.cloud.ibm.com(API 버전: 2.153.0)
+조직:                hanjy200840@gmail.com
+영역:                Test
+
+C:\Users\admin>
