@@ -1,0 +1,12 @@
+Microsoft Windows [Version 10.0.19041.572]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\admin>cd "Desktop\3학년 2학기\bluemix 기반 사물인터넷"
+
+C:\Users\admin\Desktop\3학년 2학기\bluemix 기반 사물인터넷>curl -X POST -u "apikey:2OpGZPok24p0UYBhI2BVUvLITWyJr28Oa_KSdqkdhI73" --header "Content-type:audio/wav" --data-binary @ko-KR_BroadbandModel_sample1.wav "https://stream.watsonplatform.net/speech-to-text/api/v1/recognize?model=ko-KR_BroadbandModel"
+{
+   "code": 503,
+   "code_description": "Service Unavailable",
+   "error": "Out of resources for ko-KR_BroadbandModel (version: ko-KR_BroadbandModel.v01) Service temporarily overloaded. Backend returned 503 on last attempt. (usher)"
+}
+C:\Users\admin\Desktop\3학년 2학기\bluemix 기반 사물인터넷>
