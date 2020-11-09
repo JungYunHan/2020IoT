@@ -1,0 +1,13 @@
+{
+  "apikey": "eOsu",
+  "cos_hmac_keys": {
+    "access_key_id": "884d",
+    "secret_access_key": "b4a3"
+  },
+  "endpoints": "https://control.cloud-object-storage.cloud.ibm.com/v2/endpoints",
+  "iam_apikey_description": "Auto-generated for",
+  "iam_apikey_name": "서비스 인증 정보-1",
+  "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/acfb::serviceid",
+  "resource_instance_id": "crn:v1:bluemix:public:cloud-object-storage:global:a/acfb"
+}
