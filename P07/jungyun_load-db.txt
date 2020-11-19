@@ -1,0 +1,27 @@
+C:\Users\hanjy\Desktop\bluemix IoT\Node.js\Course\Unit-14>npm run load-db
+
+> unit-14@1.0.0 load-db C:\Users\hanjy\Desktop\bluemix IoT\Node.js\Course\Unit-14
+> node ./utils/load-cloudant
+
+[2020-11-16T18:56:04.037] [INFO] default - 1605520564037:INFO: Connect success! Connected to DB: shopping_list
+[2020-11-16T18:56:04.049] [INFO] default - 1605520564049:INFO: mainline(): Initializing Cloudant... Done.
+[2020-11-16T18:56:04.063] [INFO] default - 1605520564063:INFO: mainline(): Script start at: 2020-11-16 18:56:04
+[2020-11-16T18:56:04.068] [INFO] default - 1605520564068:INFO: mainline(): Loading data for item...
+[2020-11-16T18:56:04.070] [INFO] default - 1605520564070:INFO: loadData(): Loading data files...
+[2020-11-16T18:56:04.080] [INFO] default - 1605520564080:INFO: loadData():readableStream.on(open): Opened file: ../data/Grocery_UPC_Database.csv
+[2020-11-16T18:56:04.111] [DEBUG] default - 1605520564111:DEBUG: Creating documents: 1-10000
+[2020-11-16T18:56:07.256] [DEBUG] default - 1605520567256:DEBUG: Creating documents: 10001-20000
+[2020-11-16T18:56:10.443] [DEBUG] default - 1605520570443:DEBUG: Creating documents: 20001-30000
+[2020-11-16T18:56:13.573] [DEBUG] default - 1605520573573:DEBUG: Creating documents: 30001-40000
+[2020-11-16T18:56:16.694] [DEBUG] default - 1605520576694:DEBUG: Creating documents: 40001-50000
+[2020-11-16T18:56:19.836] [DEBUG] default - 1605520579836:DEBUG: Creating documents: 50001-60000
+[2020-11-16T18:56:22.971] [DEBUG] default - 1605520582971:DEBUG: Creating documents: 60001-70000
+[2020-11-16T18:56:26.107] [DEBUG] default - 1605520586107:DEBUG: Creating documents: 70001-80000
+[2020-11-16T18:56:29.296] [DEBUG] default - 1605520589296:DEBUG: Creating documents: 80001-90000
+[2020-11-16T18:56:32.555] [DEBUG] default - 1605520592555:DEBUG: Creating documents: 90001-100000
+[2020-11-16T18:56:35.737] [DEBUG] default - 1605520595736:DEBUG: Creating documents: 100001-110000
+[2020-11-16T18:56:38.872] [INFO] default - 1605520598872:INFO: loadData():readableStream.on(close): Closed file: ../data/Grocery_UPC_Database.csv
+[2020-11-16T18:56:38.875] [DEBUG] default - 1605520598875:DEBUG: Creating documents: 110001-110436
+[2020-11-16T18:56:41.885] [INFO] default - 1605520601885:INFO: mainline(): Loading item data, done.
+[2020-11-16T18:56:41.887] [INFO] default - 1605520601887:INFO: Total item documents loaded: 110436
+[2020-11-16T18:56:41.890] [INFO] default - 1605520601890:INFO: mainline(): Script finished at: 2020-11-16 18:56:41
